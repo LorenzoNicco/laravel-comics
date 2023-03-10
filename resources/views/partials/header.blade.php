@@ -1,16 +1,27 @@
 <header>
+    <div class="blue-band bg-primary">
+        <div class="container">
+            <div class="row">
+                <nav class="col text-end">
+                    <a href="#">DC POWER&trade; VISA&#174;</a>
+                    <a href="#">ADDITIONAL DC SITES</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <div class="row">
-            <div class="logo-container col-2 align-self-center">
+            <div class="logo-container col flex-shrink-1 align-self-center">
                 <img src="{{ Vite::asset('resources/img/laravel-comics/images/dc-logo.png') }}" alt="">
             </div>
     
-            <nav class="col-10">
+            <nav class="col">
                 <ul>
                     <li>
                         <a>CHARACTERS</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a>COMICS</a>
                     </li>
                     <li>
@@ -39,6 +50,11 @@
                     </li>
                 </ul>
             </nav>
+
+            <div class="input-header col d-flex align-items-center">
+                <input type="text" placeholder="Search" class="my-input text-end">
+                <hr>
+            </div>
 
         </div>
     </div>

@@ -1,0 +1,80 @@
+.top-footer {
+    background-image: url("../img/laravel-comics/images/footer-bg.jpg");
+
+    .menu-side {
+        display: flex;
+        padding: 1rem;
+
+        .nav-2 {
+            margin-top: 1rem;
+        }
+
+        .nav-3,
+        .nav-4 {
+            margin-left: 2rem;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            a {
+                color: lightgray;
+                text-decoration: none;
+                font-size: 0.7rem;
+            }
+        }
+
+
+    }
+
+    .logo-side {
+        height: 100%;
+        
+        img {
+            height: 25rem;
+        }
+    }
+}
+
+.bottom-footer {
+    background-color: #303030;
+    height: 5rem;
+
+
+    .sign-up-btn {
+        background-color: transparent;
+        padding: 1rem;
+        cursor: pointer;
+        color: white;
+        border: 2px solid rgb(0, 132, 255);
+    }
+
+    .follow-up-btn {
+        background-color: transparent;
+        padding: 1rem;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: rgb(0, 132, 255);
+    }
+
+    .icon-btn {
+        border: none;
+        background-color: transparent;
+        height: fit-content;
+        width: fit-content;
+        border-radius: 50%;
+        margin-left: 0.5rem;
+        cursor: pointer;
+    }
+}
+
+.end-footer {
+    background-color: #222222;
+    height: 1rem;
+}

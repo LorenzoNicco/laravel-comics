@@ -1,0 +1,58 @@
+header {
+    .blue-band {
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 0.7rem;
+            margin-left: 2rem;
+        }
+    }
+
+    .logo-container {
+        height: 4rem;
+        vertical-align: middle;
+    
+        img {
+            height: 100%;
+        }
+    }
+    
+    nav {
+        vertical-align: middle;
+        height: 100%;
+    
+        ul {
+            list-style: none;
+            display: flex;
+            height: 100%;
+            margin: 0;
+    
+            li {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+    
+                a {
+                    text-decoration: none;
+                    color: black;
+                    padding: 2rem 1rem;
+                    font-size: 0.7rem;
+                }
+            }
+
+
+
+            .active {
+                box-shadow: inset 0px -7px 0px 0px rgb(0, 132, 255);
+            }
+        }
+
+    }
+
+    .my-input {
+        outline: none;
+        border: none;
+        border-bottom: 2px solid blue;
+    }
+}
